@@ -35,7 +35,7 @@ define( 'DB_COLLATE', '' );
 // Language
 // Leave blank for American English
 // ================================
-define( 'WPLANG', '' );
+define( 'WPLANG', 'sv_SE' );
 
 // ===========
 // Hide errors

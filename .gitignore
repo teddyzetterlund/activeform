@@ -1,5 +1,5 @@
 /shared
-/config/development..php
+/config/development.php
 /config/production.php
 /sql-dump-*.sql
 /db-sync
