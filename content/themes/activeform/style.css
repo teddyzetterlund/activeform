@@ -1,0 +1,11 @@
+/*
+Theme Name:     Active Form
+Theme URI:      http://www.activeform.com/
+Description:    Active Form's official WordPress theme
+Author:         Teddy Zetterlund
+Author URI:     http://twitter.com/teddyzetterlund/
+Template:       twentytwelve
+Version:        0.1.0
+*/
+
+@import url("../twentytwelve/style.css");
