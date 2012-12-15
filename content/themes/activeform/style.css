@@ -9,3 +9,20 @@ Version:        0.1.0
 */
 
 @import url("../twentytwelve/style.css");
+
+.site-header h1 {
+  /* Replace text … */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+
+  /* … with logo */
+  background: url(logo.png) no-repeat;
+  height: 90px;
+  margin: 0 auto;
+  width: 465px;
+}
+
+.site-header h2 {
+  display: none;
+}
