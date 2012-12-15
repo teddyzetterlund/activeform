@@ -10,6 +10,31 @@ Version:        0.1.0
 
 @import url("../twentytwelve/style.css");
 
+body {
+  background-color: #EBF4F7;
+  font-size: 16px;
+  font-size: 1.125rem;
+}
+
+body .site {
+  margin-top: 208px;
+  overflow: visible;
+}
+
+body .site:after {
+  clear: both;
+  content: " ";
+  display: table;
+}
+
+.site-header {
+  margin: 0 -40px -188px;
+  margin: 0 -2.857142857rem -188px;
+  padding: 0;
+  position: relative;
+  top: -187px;
+}
+
 .site-header h1 {
   /* Replace text … */
   overflow: hidden;
@@ -25,4 +50,52 @@ Version:        0.1.0
 
 .site-header h2 {
   display: none;
+}
+
+.main-navigation div.nav-menu > ul {
+  background: #DDE6E9;
+  border: 0;
+  border-bottom: 1px solid #BAC5C8;
+}
+
+.main-navigation li { margin: 0; }
+
+.main-navigation > div > ul > li > a {
+  border-left: 1px solid #BAC5C8;
+  color: #607F86;
+  font-size: 20px;
+  font-weight: bold;
+  line-height 58px;
+  text-align: center;
+  width: 172px;
+}
+
+.main-navigation li:first-child a {
+  border-left: 0;
+}
+
+.main-navigation > div > ul > .current_page_item > a {
+  background: #FFF;
+  color: #333;
+  position: relative;
+  bottom: -1px;
+}
+
+@media only screen and (max-width: 600px) {
+
+  body .site {
+    margin-top: 140px;
+  }
+
+  .site-header {
+    margin-bottom: -100px;
+    top: -120px;
+  }
+
+  .site-header h1 {
+    background-size: 233px 45px;
+    height: 45px;
+    width: 233px;
+  }
+
 }
