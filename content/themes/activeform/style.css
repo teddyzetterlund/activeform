@@ -98,4 +98,20 @@ body .site:after {
     width: 233px;
   }
 
+  .main-navigation div.nav-menu > ul {
+    background: none;
+  }
+
+  .main-navigation li { margin: .5em 0; }
+
+  .main-navigation > div > ul > li > a {
+    background: none;
+    border: 0;
+    color: #444;
+    font-size: inherit;
+    font-weight: normal;
+    line-height: inherit;
+    width: auto;
+  }
+
 }
